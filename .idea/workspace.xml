@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e17d497-3419-4fb4-8648-9c238b409a2f" name="Changes" comment="Ветка готова">
-      <change afterPath="$PROJECT_DIR$/src/JsontoXml.java" afterDir="false" />
+    <list default="true" id="5e17d497-3419-4fb4-8648-9c238b409a2f" name="Changes" comment="Поменяла местоположение">
+      <change afterPath="$PROJECT_DIR$/src/Json/Patients.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,35 @@
       <option name="project" value="LOCAL" />
       <updated>1666790881849</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Создание класса перевода из Json в XML">
+      <created>1666791154530</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666791154530</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Поменяла местоположение">
+      <created>1666791278640</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666791278640</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Создание класса для хранения информации о пациенте в Json">
+      <created>1666791401716</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666791401716</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Поменяла местоположение">
+      <created>1666791418866</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666791418866</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +154,9 @@
     <MESSAGE value="Создание класса считывание XML" />
     <MESSAGE value="Создание класса записи в JSON" />
     <MESSAGE value="Ветка готова" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ветка готова" />
+    <MESSAGE value="Создание класса перевода из Json в XML" />
+    <MESSAGE value="Создание класса для хранения информации о пациенте в Json" />
+    <MESSAGE value="Поменяла местоположение" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поменяла местоположение" />
   </component>
 </project>
