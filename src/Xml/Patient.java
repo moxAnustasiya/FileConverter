@@ -1,3 +1,5 @@
+package Xml;
+
 public class Patient
 {
     protected String name;

@@ -1,3 +1,5 @@
+package Xml;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -33,7 +35,7 @@ public class SaveJson
             }
         }
         jsonPatients.put("Patients", patients);
-        jsonHosp.put("Hospital", jsonPatients);
+        jsonHosp.put("Xml.Hospital", jsonPatients);
         try (FileWriter writer = new FileWriter(FILENAME))
         {
             writer.write(jsonHosp.toJSONString());
