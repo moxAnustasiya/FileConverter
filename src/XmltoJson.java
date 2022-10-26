@@ -13,7 +13,8 @@ public class XmltoJson
         try
         {
             dom = doc.newDocumentBuilder().parse(file);
-        } catch (Exception e) {
+        } catch (Exception e)
+        {
             System.out.println("Open parsing error: " + e.toString());
             return;
         }
