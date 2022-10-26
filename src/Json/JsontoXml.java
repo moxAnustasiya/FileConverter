@@ -14,16 +14,19 @@ public class JsontoXml
 {
     private static JSONObject object = new JSONObject();
     private static Hospital hospital;
-    public JsontoXml(File file)
+    public static String nameXml = null;
+    public JsontoXml(File file, String nameXml)
     {
         JSONParser parser = new JSONParser();
         try
         {
-            Object object = (JSONObject) parser.parse(new FileReader(file.getName()));
-            this.object = (JSONObject) object;
+            this.object = (JSONObject) parser.parse(new FileReader(file.getAbsoluteFile()));
         }
-        catch (IOException | ParseException ex) {
-            Logger.getLogger(JsontoXml.class.getName());}
+        catch (IOException | ParseException ex)
+        {
+            Logger.getLogger(JsontoXml.class.getName());
+        }
+        this.nameXml = nameXml;
     }
     public static void ParsingJsonToXML()
     {
@@ -36,6 +39,6 @@ public class JsontoXml
     }
     private static void Saving()
     {
-        SaveXML.save(hospital);
+        SaveXML.save(hospital, nameXml);
     }
 }

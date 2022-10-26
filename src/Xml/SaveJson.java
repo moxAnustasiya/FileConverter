@@ -10,10 +10,11 @@ import java.util.logging.Logger;
 
 public class SaveJson
 {
-    private static final String FILENAME= "C:\\Users\\Антон\\Desktop\\ФИб5\\Практика\\Задание 2\\FileConverterService\\Пациент.json";
+    private static String FILENAME= null;
 
-    public static void save(Hospital hosp)
+    public static void save(Hospital hosp, String nameJson)
     {
+        FILENAME = nameJson;
         JSONObject jsonHosp = new JSONObject();
         JSONObject jsonPatients = new JSONObject();
         JSONArray patients = new JSONArray();
@@ -35,7 +36,7 @@ public class SaveJson
             }
         }
         jsonPatients.put("Patients", patients);
-        jsonHosp.put("Xml.Hospital", jsonPatients);
+        jsonHosp.put("Hospital", jsonPatients);
         try (FileWriter writer = new FileWriter(FILENAME))
         {
             writer.write(jsonHosp.toJSONString());

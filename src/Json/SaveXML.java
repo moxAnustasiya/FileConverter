@@ -18,9 +18,10 @@ import java.util.List;
 
 public class SaveXML
 {
-    private static final String FILENAME= "C:\\Users\\Антон\\Desktop\\ФИб5\\Практика\\Задание 2\\FileConverterService\\Новый.xml";
-    public static void save(Hospital hosp)
+    private static String FILENAME= null;
+    public static void save(Hospital hosp, String nameXml)
     {
+        FILENAME = nameXml;
         DocumentBuilderFactory dbf = null;
         DocumentBuilder db  = null;
         Document doc = null;

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e17d497-3419-4fb4-8648-9c238b409a2f" name="Changes" comment="Создание класса для хранения больницы в Json">
-      <change afterPath="$PROJECT_DIR$/src/Json/ReadJSON.java" afterDir="false" />
+    <list default="true" id="5e17d497-3419-4fb4-8648-9c238b409a2f" name="Changes" comment="Создание тестового класса">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Json/JsontoXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Json/JsontoXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Json/SaveXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Json/SaveXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xml/SaveJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xml/SaveJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xml/XmltoJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xml/XmltoJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +150,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666791572693</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Создание класса для чтения Json">
+      <created>1666791935043</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666791935043</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Создание класса для сохранения из Json в XML">
+      <created>1666792378782</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792378782</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Создание тестового класса">
+      <created>1666792814938</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792814938</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +199,9 @@
     <MESSAGE value="Поменяла местоположение" />
     <MESSAGE value="Создание класса для хранения пациентов в Json" />
     <MESSAGE value="Создание класса для хранения больницы в Json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание класса для хранения больницы в Json" />
+    <MESSAGE value="Создание класса для чтения Json" />
+    <MESSAGE value="Создание класса для сохранения из Json в XML" />
+    <MESSAGE value="Создание тестового класса" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание тестового класса" />
   </component>
 </project>

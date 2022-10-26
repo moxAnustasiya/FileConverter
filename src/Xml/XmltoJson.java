@@ -9,7 +9,8 @@ public class XmltoJson
 {
     private static Document dom;
     private static Hospital hosp;
-    public XmltoJson(File file)
+    public static String nameJson = null;
+    public XmltoJson(File file, String nameJson)
     {
         DocumentBuilderFactory doc = DocumentBuilderFactory.newInstance();
         try
@@ -20,6 +21,7 @@ public class XmltoJson
             System.out.println("Open parsing error: " + e.toString());
             return;
         }
+        this.nameJson = nameJson;
     }
     private static void Reading()
     {
@@ -27,7 +29,7 @@ public class XmltoJson
     }
     private static void Writing()
     {
-        SaveJson.save(hosp);
+        SaveJson.save(hosp, nameJson);
     }
     public static void ParsingXMLtoJSON()
     {
