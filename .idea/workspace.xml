@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e17d497-3419-4fb4-8648-9c238b409a2f" name="Changes" comment="Создание класса считывание XML">
-      <change afterPath="$PROJECT_DIR$/src/SaveJson.java" afterDir="false" />
+    <list default="true" id="5e17d497-3419-4fb4-8648-9c238b409a2f" name="Changes" comment="Ветка готова">
+      <change afterPath="$PROJECT_DIR$/src/JsontoXml.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666790663437</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Создание класса записи в JSON">
+      <created>1666790815423</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666790815423</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ветка готова">
+      <created>1666790881849</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666790881849</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +124,8 @@
     <MESSAGE value="Создание класса с информацией об отделениях больницы в файле XML" />
     <MESSAGE value="Создание класса с информацией о больнице в файле XML" />
     <MESSAGE value="Создание класса считывание XML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание класса считывание XML" />
+    <MESSAGE value="Создание класса записи в JSON" />
+    <MESSAGE value="Ветка готова" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ветка готова" />
   </component>
 </project>
